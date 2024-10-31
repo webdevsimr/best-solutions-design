@@ -1,0 +1,31 @@
+.ProductSolutions {
+}
+.ProductSolutions_boxes {
+  border-bottom: 1px solid #33363a;
+}
+
+.ProductSolutions_textContent {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 122px;
+}
+
+.ProductSolutions_green_text {
+  border-radius: 15px;
+  background-color: #c6f6d5;
+  color: #36a269;
+  padding: 4px 12px;
+  width: fit-content;
+  margin: 0 auto;
+  /* margin-bottom: 16px; */
+}
+
+.ProductSolutions_text_heading {
+  margin: 16px 0px;
+}
+
+/* @media only screen and (max-width:767px){
+  .
+} */

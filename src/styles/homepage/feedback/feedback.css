@@ -1,0 +1,43 @@
+.Feedback_textContent {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.Feedback_textContent h2 {
+  margin-bottom: 16px;
+}
+
+.Feedback_textBoxes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 24px;
+}
+
+@media only screen and (max-width: 767) {
+  .Feedback_textBoxes {
+    grid-template-columns: repeat(2, auto);
+    gap: 18px;
+  }
+
+  .Feedback_textContent {
+    margin-bottom: 60px;
+  }
+  .Feedback_textContent h2 {
+    margin-bottom: 14px;
+  }
+}
+@media only screen and (max-width: 480) {
+  .Feedback_textBoxes {
+    grid-template-columns: repeat(1, auto);
+    gap: 12px;
+  }
+
+  .Feedback_textContent {
+    margin-bottom: 40px;
+  }
+  .Feedback_textContent h2 {
+    margin-bottom: 12px;
+  }
+}

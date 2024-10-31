@@ -1,0 +1,36 @@
+/* .CustomersWorkflows{
+  
+} */
+
+.CustomersWorkflows_textbox {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.CustomersWorkflows_textbox h2 {
+  margin-bottom: 24px;
+}
+
+/* .CustomersWorkflows_card_boxes {
+ 
+} */
+
+@media only screen and (max-width: 1024px) {
+    .CustomersWorkflows_textbox{
+            margin-bottom: 64px;
+    }
+}
+@media only screen and (max-width: 767px) {
+.CustomersWorkflows_textbox{
+                margin-bottom: 58px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .CustomersWorkflows_textbox{
+                    margin-bottom: 48px;
+        }
+
+}

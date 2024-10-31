@@ -1,0 +1,62 @@
+.FeedbackCard {
+  max-width: 352px;
+  width: 100%;
+  background-color: #25282c;
+  padding: 24px 24px 20px;
+}
+
+.FeedbackCard img {
+  max-width: 60px;
+  height: auto;
+}
+
+.FeedbackCard_text_review {
+  text-align: center;
+  border-bottom: 1px solid #33363a;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+}
+.FeedbackCard_appName_span {
+  color: #5d5dff;
+}
+
+.FeedbackCard_appName_slash {
+  color: #33363a;
+}
+
+/* .FeedbackCard_appName {
+} */
+
+@media only screen and (max-width: 767) {
+  /* .Feedback_textBoxes{
+        grid-template-columns: repeat(2,auto);
+        gap: 18px;
+    } */
+
+  .FeedbackCard_text_review {
+    font-size: 16px;
+    line-height: 20px;
+
+    padding-bottom: 20px;
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (max-width: 480) {
+  .Feedback_textBoxes {
+    grid-template-columns: repeat(1, auto);
+    gap: 12px;
+  }
+
+  .FeedbackCard_text_review {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 16px;
+    margin-bottom: 14px;
+  }
+
+  .FeedbackCard {
+    max-width: 100%;
+    padding: 20px 20px 16px;
+  }
+}

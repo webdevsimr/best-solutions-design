@@ -1,0 +1,34 @@
+.ProductSolutionsBox_left_text {
+  gap: 64px;
+}
+
+.boxRightImage  {
+ order: 1;
+}
+.ProductSolutionsBox_Right_Img img {
+  max-width: 540px;
+  height: auto;
+}
+
+.boxLeftText{
+  order: 2;
+}
+
+.ProductSolutionsBox_left_Img img {
+  max-width: 540px;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .ProductSolutionsBox_left_Img img {
+    max-width: 100% !important;
+  }
+  .boxRightImage  {
+    order: 2;
+   }
+
+   .boxLeftText{
+    order: 1;
+  }
+
+}
